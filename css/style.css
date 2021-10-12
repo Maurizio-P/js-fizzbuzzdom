@@ -1,0 +1,23 @@
+main {
+    background-color: #083B4C;
+}
+
+.title {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.row-cols-7 >*  {
+    width: calc(100% / 7);
+    flex: 0 0 auto;
+}
+
+.testo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
